@@ -2,12 +2,9 @@
   "build": {
     "production": {
       "android": {
-        "buildType": "apk",
-        "jdk": "17"
+        "buildType": "apk"
       },
-      "ios": {
-        "buildNumber": "1.0.0"
-      },
+      "ios": {},
       "env": {
         "NODE_ENV": "production"
       }
